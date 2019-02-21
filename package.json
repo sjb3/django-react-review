@@ -1,0 +1,11 @@
+{
+  "name": "django-react-review",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sjb3/django-react-review.git",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}
