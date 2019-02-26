@@ -7,6 +7,8 @@ Backend
 
 \$ django-admin startproject leadmanager
 
+==> python manage.py runserver
+
 REDUX work flow
 first off,
 
@@ -19,3 +21,5 @@ second) reducers
 
 third) create actions
 to get the data from backend
+
+==> yarn run dev
