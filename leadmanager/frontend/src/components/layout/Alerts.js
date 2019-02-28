@@ -25,7 +25,7 @@ export class Alerts extends Component {
 
     if (message !== prevProps.message) {
       if (message.deleteLead) alert.success(message.deleteLead);
-      if (message.postLead) alert.success(message.postLead);
+      if (message.addLead) alert.success(message.addLead);
       if (message.passwordNotMatch) alert.error(message.passwordNotMatch);
     }
   }
@@ -40,4 +40,4 @@ const mapStateToProps = state => ({
   message: state.messages
 });
 
-export default connect(mapStateToProps)(withAlert()(Alerts));
+export default connect(mapStateToProps)(withAlert(Alerts));
